@@ -1,0 +1,8 @@
+<templateSet group="Python">
+  <template name="pdb" value="print(&quot;$METHOD_NAME$: $END$&quot;)  # DEBUG" description="Print some value out for debugging purposes." toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="pyFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

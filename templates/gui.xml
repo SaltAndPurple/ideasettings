@@ -1,0 +1,13 @@
+<templateSet group="gui">
+  <template name="btng" value="JButton $BUTTON_NAME$ = new JButton( &quot;$BUTTON_TEXT$&quot; );&#10;gc = getConstraints( $GRIDX$, $GRIDY$, 0.5f, 0.5f);&#10;this.add( $BUTTON_NAME$, gc );" description="Creates a button with default gridbagconstraints and adds it to THIS. Case specific implementation." toReformat="true" toShortenFQNames="true">
+    <variable name="BUTTON_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BUTTON_TEXT" expression="" defaultValue="$BUTTON_NAME$" alwaysStopAt="true" />
+    <variable name="GRIDX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GRIDY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+</templateSet>

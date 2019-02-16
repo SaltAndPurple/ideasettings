@@ -1,0 +1,23 @@
+<templateSet group="output">
+  <template name="soutm" value="System.out.println(&quot;$CLASS_NAME$#$METHOD_NAME$: $END$&quot;); //DEBUG" description="Prints current class and method names to System.out and awaits further comment" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="soutb" value="System.out.println(&quot;$CLASS_NAME$#$METHOD_NAME$: Reached bookmark $bookmarknumber$ $END$&quot;); //DEBUG" description="Prints current class and method names to System.out and expects a bookmark number to be set." toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="bookmarknumber" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="sobuff" value="// DEBUG ONLY&#10;System.out.println(&quot;$CLASS_NAME$#$METHOD_NAME$: Content of ByteBuffer $buffer$:&quot;);&#10;while ($buffer$.hasRemaining()){&#10;    System.out.print($buffer$.get());&#10;}&#10;$buffer$.rewind();&#10;// DEBUG END" description="Prints current class and method names to System.out and prints the contents of a given buffer byte-wise." toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="buffer" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

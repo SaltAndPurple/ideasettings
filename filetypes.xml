@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="klib" type="ARCHIVE" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
+      <mapping pattern="article_status" type="SQL" />
+      <removed_mapping ext="ftl" approved="true" type="HTML" />
+    </extensionMap>
+  </component>
+</application>
