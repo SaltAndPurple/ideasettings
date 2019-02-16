@@ -13,7 +13,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="Debug">
-    <keyboard-shortcut first-keystroke="ctrl f10" />
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="Editor SearchWeb">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
@@ -21,6 +21,7 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
+  <action id="EditorContextInfo" />
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
   </action>
@@ -49,11 +50,20 @@
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="ctrl #10000c4" />
   </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift f9" />
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
   </action>
   <action id="ToolWindowsGroup">
     <keyboard-shortcut first-keystroke="alt dead_circumflex" />

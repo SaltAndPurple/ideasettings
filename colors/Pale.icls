@@ -3,7 +3,7 @@
     <property name="created">2019-02-09T18:54:32</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.3.4.0.0</property>
-    <property name="modified">2019-02-14T11:44:53</property>
+    <property name="modified">2019-02-16T18:37:04</property>
     <property name="originalScheme">Pastel (rainglow) copy</property>
   </metaInfo>
   <colors>
@@ -695,7 +695,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="df449b" />
+        <option name="FOREGROUND" value="ff54f2" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -1355,7 +1355,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="LINE_FULL_COVERAGE">
       <value>
         <option name="BACKGROUND" value="264b33" />
@@ -2450,11 +2449,7 @@
         <option name="FOREGROUND" value="d4d4d4" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME">
-      <value>
-        <option name="FOREGROUND" value="4c4a5" />
-      </value>
-    </option>
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.CLASS_DEFINITION">
       <value>
         <option name="FOREGROUND" value="e2e060" />
@@ -2477,21 +2472,9 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="PY.DOC_COMMENT_TAG">
-      <value>
-        <option name="FOREGROUND" value="6a6a6a" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="PY.DOT">
       <value>
         <option name="FOREGROUND" value="d4d4d4" />
-      </value>
-    </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="4c4a5" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="PY.INVALID_STRING_ESCAPE">
@@ -2500,36 +2483,17 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="9474a9" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD_ARGUMENT">
-      <value>
-        <option name="FOREGROUND" value="c56c6c" />
-      </value>
-    </option>
+    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="444444" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="PY.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="c56c6c" />
-      </value>
-    </option>
     <option name="PY.OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="d4d4d4" />
-      </value>
-    </option>
-    <option name="PY.PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="c56c6c" />
       </value>
     </option>
     <option name="PY.PARENTHS">
@@ -2539,19 +2503,17 @@
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="4c4a5" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="cca970" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
-        <option name="FOREGROUND" value="eeeeee" />
+        <option name="FOREGROUND" value="cca970" />
       </value>
     </option>
     <option name="PY.SELF_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="9474a9" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="fd9dff" />
       </value>
     </option>
     <option name="PY.STRING">
@@ -2559,16 +2521,7 @@
         <option name="FOREGROUND" value="c56c6c" />
       </value>
     </option>
-    <option name="PY.STRING.B">
-      <value>
-        <option name="FOREGROUND" value="c56c6c" />
-      </value>
-    </option>
-    <option name="PY.STRING.U">
-      <value>
-        <option name="FOREGROUND" value="c56c6c" />
-      </value>
-    </option>
+    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="PY.VALID_STRING_ESCAPE">
       <value />
     </option>
@@ -3041,7 +2994,6 @@
         <option name="BACKGROUND" value="323232" />
       </value>
     </option>
-    <option name="SQL_SYNTHETIC_ENTITY" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="SUGGESTION">
       <value>
