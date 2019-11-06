@@ -87,9 +87,7 @@
     <keyboard-shortcut first-keystroke="shift enter" />
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
-  <action id="ExpandRegion">
-    <keyboard-shortcut first-keystroke="meta eszett" />
-  </action>
+  <action id="ExpandRegion" />
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
